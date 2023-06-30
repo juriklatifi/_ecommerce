@@ -13,7 +13,11 @@ const NavBar = () => {
   return (
     <div className='navbar-container '>
       <p className='logo'>
+<<<<<<< HEAD
+        <Link href='/'>Mad Tech</Link>
+=======
         <Link href='/'>MAD Tech</Link>
+>>>>>>> 448061679c05ce4b8ba8c3ffd2a198dda4dab373
       </p>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
