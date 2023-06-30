@@ -52,7 +52,7 @@ return(
         <div className='quantity'>
           <h3>Quantity: </h3>
           <p className='quantity-desc'>
-            
+
             <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
             <span className="num">{qty}</span>
             <span className="plus" onClick={incQty}><AiOutlinePlus /></span>
@@ -61,7 +61,7 @@ return(
         </div>
         <div className='buttons'>
           <button type='button' className='add-to-cart' onClick={() => onAdd(product, qty)}>Add to Cart</button>
-          <button type='button' className='buy-now' onClick=''> Buy Now</button>
+          <button type='button' className='buy-now' > Buy Now</button>
         </div>
       </div>
     </div>
